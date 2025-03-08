@@ -48,7 +48,7 @@ Return a JSON object with the following structure:
 
 IMPORTANT: If the user's request is ambiguous but appears to be asking about information you can give based on the context you have about the directory or files, assume it's a question (is_question=true) rather than a command request.
 IMPORTANT: "How" is a good indicator that user is asking for commands most of the time.
-IMPORTANT: Take a lot of input from the user...as much as possible for commands.
+IMPORTANT: Take a lot of input (ex: asking for commit message, repo link)
 IMPORTANT: If you are not sure about the directory/files/folder the user wants to talk about assume the one you are currently in"
 
 VERY IMPORTANT: Use ONLY double quotes in your JSON, not single quotes. Escape any double quotes inside strings with a backslash (\\").

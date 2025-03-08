@@ -3,3 +3,5 @@ build/
 cmd_gen.egg-info/
 __pycache__/
 *.pyc
+.env
+.env
